@@ -1431,7 +1431,7 @@ object {
 	margin-right: 0 !important;
 }
 .navbar-inverse .navbar-nav>li>a {
-	color: #999;
+	color: #fff;
 	padding: 0;
 	line-height: 35px;
 }
@@ -1507,7 +1507,7 @@ object {
 	left: 12.5%;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
-	color: #fff;
+	color: #000;
 	outline: none;
 }
 .navbar-toggle {
@@ -2531,7 +2531,9 @@ width: -webkit-calc(100% / 4);
  **   Testionial           -----
 -----------------------------------------*/
 .testimonial {
-	background: #dbbf56;
+	background: #E6DBC4;
+	border-top: 4px solid #F9F5EF;
+	border-bottom: 4px solid #F9F5EF;
 	padding-bottom: 90px;
 }
 #client-feedbacks .feedback-box {
@@ -2660,7 +2662,6 @@ width: -webkit-calc(100% / 4);
 .copyright {
 	padding-top: 68px;
 	padding-bottom: 68px;
-	background: #171717;
 }
 .social {
 	margin: 0 0 1.5em 0 !important;
@@ -4707,17 +4708,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bannr {
-	background: #529AD8;
-	border-top: 2px solid #000;
-	border-bottom: 2px solid #1E7FD3;
+	background: #E6DBC4;
+	border-top: 3px solid #4E8FC7;
 	opacity: 0.9;
 	height: 30px;
-	margin-top: 10px;
 }
 
 .bannr p {
 	text-align: center;
-        color: #fff;
+        color: #333;
+}
+
+nav#site-navigation {
+    background: #4E8FC7;
+    border-bottom: 1px solid #F9F5EF;
+}
+
+.navbar-header {
+    padding: 20px 0;
 }
 
 
@@ -4738,6 +4746,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: #E6DBC4;
 	color: #333;
 	position: relative;
+	padding-bottom: 0;
 }
 
 @media (min-width: 992px){
@@ -4752,8 +4761,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 }
 
-#about-right h2,h4 {
+#about-right h4 {
 	color:#E6DBC4;
+}
+
+#about-right h3 {
+	color: #fff;
 }
 
 #about-right {
@@ -4772,16 +4785,34 @@ div#about-box {
     background: #4E8FC7;
     padding: 20px;
     width: 85%;
-    margin: 60px auto;
+    margin: 40px auto;
     color: #fff;
+}
+
+#about-box p {
+	background: none;
 }
 
 .about-us h1, h2, h3, h4, h5, h6 {
 	color: #333;
 }
 
-.about-us p {
-	color: #333;
+.about-us h3 {
+	color: #4592D8;
+	padding-bottom: 20px;
+}
+
+.left-header-about {
+    background: #4592D8;
+    width: 85%;
+    margin: 42px auto;
+    padding: 13px;
+    border: 5px solid #333;
+    outline: 5px solid #4592d8;
+}
+
+.about-us h2 {
+	color: #fff;
 }
 
 #about-box p {
@@ -4790,7 +4821,21 @@ div#about-box {
 }
 
 .our-team {
-	background: url('/wp-content/uploads/2015/05/bridge_back.gif') fixed no-repeat;
+	background: url('/wp-content/uploads/2015/05/bigstock-Businessman-Speaking-53452693.jpg') fixed no-repeat;
+}
+
+div#about-first {
+    padding: 25px;
+}
+
+h3.about-left {}
+
+p.pgraph, #chris_pic {
+    padding: 40px;
+}
+
+section#aboutus {
+    padding-top: 10px;
 }
 
 .our-team div.container {
@@ -4799,7 +4844,7 @@ div#about-box {
 }
 
 .contact-us {
-	background: url('/wp-content/uploads/2015/05/capitol_back.gif') no-repeat fixed center;
+	background: url('/wp-content/uploads/2015/05/bigstock-Panoramic-and-perspective-wide-69981985-copy.jpg') no-repeat fixed center;
 }
 
 /***Testimonials Slider Code***/
@@ -4833,12 +4878,128 @@ div#about-box {
 	right: 20px;
 }
 
+#testimonials h2 {
+	color: #4E8FC7;
+}
+
+/***Footer***/
+
+#map {
+	position: relative;
+	padding: 50px 0;
+}
+
+#footer div.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+iframe {
+	position: relative;
+}
+
+/**** Pages ****/
+
+header.entry-header {
+    display: none;
+}
+
+div#content {
+    background: url('/wp-content/uploads/2015/05/bigstock-Panoramic-and-perspective-wide-69981985-copy.jpg') fixed no-repeat;
+}
+
+header#home {
+    min-height: 150px !important;
+}
+
+div#drug {
+    background-color: #E6DBC4;
+    padding: 60px;
+}
+
+.content-left-wrap.col-md-12 {
+    padding: 60px 0;
+}
+
+#drug p {
+    color: #333;
+}
+
+.header-box {
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background: #495056;
+    padding: 20px;
+    opacity: .9;
+    border: 9px solid #fff;
+    outline: 9px solid #495056;
+}
+
+div#drug_container {
+    padding: 0;
+}
+
+.left-page h3 {
+	color: #4592D8;
+}
+
+.page-list {
+    background-color: #4592D8;
+    color: #fff;
+    padding: 25px;
+    margin: 40px 0;
+}
+
+#drug_crimes h3 {
+    color: #4592D8;
+}
+
+.left-page {
+    background-color: #F9F5EF;
+    padding: 30px;
+}
 @media (max-width: 604px){
 	#client-feedbacks .feedback-box {
 		margin: 6px !important;
 	}
+	#test_col {
+		width: 100%;
+		margin-left: 0 !important; 
+	}
+	#client-feedbacks .feedback-box {
+		width: 100%;
+	}
+	#left, #right {
+		display: none;
+	}	
+	#test_row {
+		overflow: scroll;
+		max-height: 1000px;		
+		width: 90%;
+		margin: 0 5%;
+	}
+	#chris_pic {
+		float: none;
+	}
+	.about-us p {
+		text-align: center;
+	}	
+	div#drug {	
+		padding: 0;
+	}
+	.page-list {
+		padding: 20px 0;
+	}
+	#drug p {
+		margin: 20px 0;
+	}
+	#drug_crimes h3 {
+		line-height: 33px;	
+	}
 }
-
+	
 @media (min-width: 605px) and (max-width: 991px){
 	#client-feedbacks .feedback-box {
 		margin: 8px !important;

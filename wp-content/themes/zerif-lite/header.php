@@ -39,6 +39,9 @@
 
 <?php wp_head(); ?>
 
+
+
+
 <script>
 	//Testimonial Slider Code
 
@@ -53,10 +56,7 @@
 		jQuery('#left').click(function(e){			
 			console.log(margn);
 			if (endn.test(margn)){
-				console.log('Hey!');
-   				e.preventDefault();
-			} else {
-				margn -= 33.333333;
+				console.log('Hey!'); e.preventDefault(); } else { margn -= 33.333333;
 				jQuery('div#test_col').animate({marginLeft: margn + '%'});
 			}
 		});
@@ -74,7 +74,7 @@
 
 </head>
 
-
+ 
 
 <?php if(isset($_POST['scrollPosition'])): ?>
 
@@ -114,9 +114,13 @@ endif; ?>
 
 
 <header id="home" class="header">
+	
 
 	<div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
 
+	<div class="row bannr">
+		<p>Free Initial Consultation - <b><font color="4B8EC9">Call 512.407.9700</font></b></p>
+	</div>	
 		<div class="container">
 
 
@@ -168,9 +172,6 @@ endif; ?>
 				<?php wp_nav_menu( array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav navbar-right responsive-nav main-nav-list', 'fallback_cb'     => 'zerif_wp_page_menu')); ?>
 
 			</nav>
-			<div class="row bannr">
-					<p>Free Initial Consultation - Call 512.407.9700</p>
-			</div>	
 
 		</div>
 

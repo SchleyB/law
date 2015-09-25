@@ -49,8 +49,7 @@
 
 		<div class="row">
                     <div class="col-md-6" id="about-first">
-			<h4 class="about-left">Chris Dorbandt & Associates, PLLC</h4>
-                        <img id="chris_pic" src="/wp-content/uploads/2015/05/chris2.png">
+                        <img id="chris_pic" src="/wp-content/uploads/2015/05/chris2.png" width="400px">
                         <p class="pgraph">
                             If you or someone you know has been accused of a criminal
                             offense, you need representation from an experienced
@@ -83,8 +82,9 @@
                         </p>
                 </div>
                 <div class="col-md-6" id="about-right">
-		    <h2>You are Presumed Innocent</h2>
-		    <h4>Until Proven Guilty Beyond A reasonable doubt</h4>
+		<div class="left-header-about">
+		    <h3>You are Presumed Innocent Until Proven Guilty Beyond a Reasonable Doubt</h3>
+		</div>
                     <iframe width="85%" height="315" src="https://www.youtube.com/embed/zyKTz7H0g6s" frameborder="0" allowfullscreen></iframe>
                     <div id="about-box">
                         <h4>If you have been charged with a crime in Texas, we can help you!</h4>

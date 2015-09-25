@@ -3,8 +3,7 @@
 /**
 
  * The template for displaying the footer.
-
- *
+*
 
  * Contains the closing of the #content div and all content after
 
@@ -20,9 +19,10 @@
 
 <footer id="footer">
 
-<div class="container">
-
-
+<div class="container-fluid">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.9071710237404!2d-97.74942799999994!3d30.35358800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b50b515f8e95%3A0x28d3904da5491541!2sThe+Law+Office+of+Chris+Dorbandt!5e0!3m2!1sen!2sus!4v1432578770420" width="100%" height="400" frameborder="0" style="border:0"></iframe>
+	
+	<div class="row">	
 
 	<?php
 		$footer_sections = 0;
@@ -141,13 +141,11 @@
 						echo esc_attr($zerif_copyright);
 					endif;
 					
-					echo '<div class="zerif-copyright-box"><a class="zerif-copyright" href="https://themeisle.com/themes/zerif-lite/" target="_blank" rel="nofollow">Zerif Lite </a>'.__('powered by','zerif-lite').'<a class="zerif-copyright" href="http://wordpress.org/" target="_blank" rel="nofollow"> WordPress</a></div>';
-					
-					echo '</div>';
+			
 			
 		endif;
 	?>
-
+	</div> <!-- Row -->
 </div> <!-- / END CONTAINER -->
 
 </footer> <!-- / END FOOOTER  -->
