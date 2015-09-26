@@ -7,8 +7,10 @@
 	
 		echo '<div class="row">';
 			echo '<div class="col-sm-6">';
-				echo '<img class="opac" src="/wp-content/uploads/2015/05/hero.png">';
-			echo '</div>';
+				echo '<div class="main-header-box">';
+					echo '<h1>Criminal Defense Attorney</h1>';
+					echo '<button id="header-button"><strong>FREE</strong> Consultation Now</button>';
+				echo '</div>';
 		echo '</div>';
 
 		$zerif_bigtitle_title = get_theme_mod('zerif_bigtitle_title',__('To add a title here please go to Customizer','zerif-lite'));
@@ -81,8 +83,11 @@
 
 
 		echo '</div>';
-
+		
 	echo '</div><!-- .header-content-wrap -->';
+	
+		echo '<div id="orange-bar"><img src="/wp-content/uploads/2015/09/dorbandt-portrait1.jpg"><p>Call 512.407.9700</p></div>';
+
 	
 		echo '<div class="clear"></div>';
 

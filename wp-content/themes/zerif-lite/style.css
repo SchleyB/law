@@ -33,7 +33,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
 	font-family: inherit;
-	font-size: 16px;
+	font-size: 18px;
 	font-style: inherit;
 	font-weight: inherit;
 	margin: 0;
@@ -92,8 +92,8 @@ a img {
 	border: 0;
 }
 body {
-	font-family: 'Lato', sans-serif !important;
-	font-size: 14px;
+	font-family: PT sans, sans-serif;
+	font-size: 18px;
 	color: #808080;
 	font-weight: normal;
 	overflow-x: hidden;
@@ -164,8 +164,8 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
-	font-size: 16px;
+	font-family: PT sans, sans-serif;
+	font-size: 18px;
 	font-size: 1.6rem;
 	line-height: 1.5;
 }
@@ -1378,7 +1378,7 @@ object {
 	position: relative;
 	-webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
 	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
-	padding: 15% 0 150px;
+	padding: 15% 0 0;
 }
 .header_title {
     float: left;
@@ -4692,6 +4692,51 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: 0.9;
 }
 
+.main-header-box {
+	color: #fff;
+    margin: 10% auto;
+    text-align: center;
+    background: #495056;
+    padding: 20px;
+    opacity: .9;
+    border: 9px solid #fff;
+    outline: 9px solid #495056;
+}
+
+.header-content-wrap{
+	background: none;
+}
+
+button#header-button {
+    background-color: #4E8FC7;
+    border: 1px solid #fff;
+	white-space: normal;
+	margin: auto;
+}
+
+button#header-button:hover {
+    box-shadow: none;
+}
+
+@media(max-width: 480px){
+	a.navbar-brand {
+		max-width: 75%;
+	}
+	.main-header-box{
+		width: 100%;
+		margin: 0;
+	}
+	button#header-button{
+		width: 100%;
+	}
+	body.custom-background{
+		background-image: url('/wp-content/uploads/2015/09/header-mobile1.jpg') !important;
+	}
+	.header-content-wrap {
+		padding-top: 10% 0 0;
+	}
+}
+
 #main-nav {
 	background: #333;
 	min-height: 0 !important;
@@ -4734,12 +4779,7 @@ nav#site-navigation {
 #chris_pic {
     float: right;
     padding: 10px;
-}
-
-.pgraph {
-    font-size: 16px;
-    line-height: 27px;
-    padding: 20px;
+	max-width: 300px;
 }
 
 .about-us{
@@ -4821,17 +4861,31 @@ div#about-box {
 }
 
 .our-team {
-	background: url('/wp-content/uploads/2015/05/bigstock-Businessman-Speaking-53452693.jpg') fixed no-repeat;
+	background: url('/wp-content/uploads/2015/09/practice-areas-background1.jpg') fixed no-repeat;
+	background-size: cover;
 }
 
 div#about-first {
     padding: 25px;
 }
 
-h3.about-left {}
 
 p.pgraph, #chris_pic {
-    padding: 40px;
+    font-family: PT sans, sans-serif;
+    font-size: 18px;
+    color: #585A5A;
+    line-height: 1.75em;
+}
+
+.pgraph-header {
+    font-weight: 700;
+    display: block;
+    text-align: right;
+    font-size: 1.75em;
+    color: #2F3030;
+    line-height: 1.2em;
+    letter-spacing: 0;
+	text-align: center;
 }
 
 section#aboutus {
@@ -4844,7 +4898,8 @@ section#aboutus {
 }
 
 .contact-us {
-	background: url('/wp-content/uploads/2015/05/bigstock-Panoramic-and-perspective-wide-69981985-copy.jpg') no-repeat fixed center;
+	background: url('/wp-content/uploads/2015/09/contact-background1.jpg') no-repeat fixed center;
+	background-size: cover;
 }
 
 /***Testimonials Slider Code***/
@@ -4909,7 +4964,7 @@ div#content {
 }
 
 header#home {
-    min-height: 150px !important;
+    min-height: 180px !important;
 }
 
 div#drug {
@@ -4922,7 +4977,8 @@ div#drug {
 }
 
 #drug p {
-    color: #333;
+    color: #585A5A;
+	line-height: 1.3em;
 }
 
 .header-box {
@@ -4937,6 +4993,37 @@ div#drug {
     outline: 9px solid #495056;
 }
 
+div#orange-bar {
+    background-color: #C46C41;
+}
+
+#orange-bar img {
+    float: right;
+	margin-top: -256px;
+	padding: 0 10% 0 36px
+}
+
+#orange-bar p {
+    padding: 20px;
+    font-size: 36px;
+	margin-bottom: 0;
+}
+
+@media(max-width: 767px){
+	#orange-bar img{
+		display: none;
+	}
+	.header-content-wrap {
+		padding: 10% 0 0;
+	}
+	.main-header-box {
+		margin: 10% 0;
+	}
+	#orange-bar p {
+		text-align: center;
+	}
+}
+
 div#drug_container {
     padding: 0;
 }
@@ -4948,8 +5035,12 @@ div#drug_container {
 .page-list {
     background-color: #4592D8;
     color: #fff;
-    padding: 25px;
+    padding: 20px 10px;
     margin: 40px 0;
+}
+
+.page-list li {
+	padding: 5px 0;
 }
 
 #drug_crimes h3 {
@@ -4982,6 +5073,7 @@ div#drug_container {
 	}
 	#chris_pic {
 		float: none;
+		max-width: 300px;
 	}
 	.about-us p {
 		text-align: center;

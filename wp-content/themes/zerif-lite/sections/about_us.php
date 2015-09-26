@@ -49,13 +49,14 @@
 
 		<div class="row">
                     <div class="col-md-6" id="about-first">
+						<h3 class="pgraph-header">Chris Dorbandt & Associates, PLLC</h3>
                         <img id="chris_pic" src="/wp-content/uploads/2015/05/chris2.png" width="400px">
                         <p class="pgraph">
                             If you or someone you know has been accused of a criminal
                             offense, you need representation from an experienced
                             criminal defense attorney who is committed to protecting
-                            your legal rights. What you don’t know about your legal
-                            rights can hurt you! At Chris Dorbandt & Associates we
+                            your legal rights. <strong>What you don’t know about your legal
+                            rights can hurt you!</strong> At Chris Dorbandt & Associates we
                             aggressively defend our clients to ensure that their rights
                             are protected at every stage of the process. You need and
                             deserve a highly skilled, experienced criminal defense
@@ -69,13 +70,13 @@
                             others who can and often times will, testify against you.
                         </p>
                         <p class="pgraph">
-                            Remember, in the United States you are presumed innocent until proven guilty
-                            beyond a reasonable doubt. Pleading “guilty” or “no contest” to a criminal
+                            <strong>Remember, in the United States you are presumed innocent until proven guilty
+                            beyond a reasonable doubt.</strong> Pleading “guilty” or “no contest” to a criminal
                             charge will leave you with a criminal conviction and record for the remainder of
                             your life. A criminal conviction is a public record. How might an incident like
                             this impact your personal or professional life, especially if you’ve been
-                            convicted of a felony or serious misdemeanor? Don’t wait to see what happens,
-                            call us immediately!
+                            convicted of a felony or serious misdemeanor? <strong>Don’t wait to see what happens,
+                            call us immediately!</strong>
                         </p>
                         <p class="pgraph">
                             I am a highly experienced criminal defense attorney located in Austin, Texas.
