@@ -25,7 +25,7 @@
 
 define( 'DB_NAME', 'wordpress' );
 define( 'DB_USER', 'root' );
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'dorbandt735' );
 define( 'DB_HOST', 'localhost' );
 
 /** Database Charset to use in creating database tables. */
@@ -45,6 +45,9 @@ define('DB_COLLATE', '');
  */
 
 /**#@-*/
+
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
 
 /**
  * WordPress Database Table prefix.

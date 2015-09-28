@@ -4754,19 +4754,17 @@ button#header-button:hover {
 
 .bannr {
 	background: #E6DBC4;
-	border-top: 3px solid #4E8FC7;
 	opacity: 0.9;
 	height: 30px;
 }
 
 .bannr p {
 	text-align: center;
-        color: #333;
+        color: #585A5A;
 }
 
 nav#site-navigation {
     background: #4E8FC7;
-    border-bottom: 1px solid #F9F5EF;
 }
 
 .navbar-header {
@@ -4881,7 +4879,7 @@ p.pgraph, #chris_pic {
     font-weight: 700;
     display: block;
     text-align: right;
-    font-size: 1.75em;
+    font-size: 1.25em;
     color: #2F3030;
     line-height: 1.2em;
     letter-spacing: 0;
@@ -4959,9 +4957,11 @@ header.entry-header {
     display: none;
 }
 
+/*
 div#content {
     background: url('/wp-content/uploads/2015/05/bigstock-Panoramic-and-perspective-wide-69981985-copy.jpg') fixed no-repeat;
 }
+*/
 
 header#home {
     min-height: 180px !important;
@@ -5026,6 +5026,9 @@ div#orange-bar {
 
 div#drug_container {
     padding: 0;
+    background-image: url('/wp-content/uploads/2015/09/bigstock-Cannabis-Background-57242060.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .left-page h3 {
