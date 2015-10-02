@@ -286,7 +286,7 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 	if( isset($zerif_bigtitle_show) && $zerif_bigtitle_show != 1 ):
 
-		include "wp-content/themes/zerif-lite-child/sections/big_title.php";
+		include get_stylesheet_directory() . "/sections/big_title.php";
 	endif;
 
 
@@ -328,7 +328,7 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 	if( isset($zerif_aboutus_show) && $zerif_aboutus_show != 1 ):
 
-		include get_template_directory() . "/sections/about_us.php";
+		include get_stylesheet_directory() . "/sections/about_us.php";
 	endif;
 
 
@@ -338,7 +338,7 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 	if( isset($zerif_ourteam_show) && $zerif_ourteam_show != 1 ):
 
-		include get_template_directory() . "/sections/our_team.php";
+		include get_stylesheet_directory() . "/sections/our_team.php";
 	endif;
 
 
@@ -348,7 +348,7 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 	if( isset($zerif_testimonials_show) && $zerif_testimonials_show != 1 ):
 
-		include get_template_directory() . "/sections/testimonials.php";
+		include get_stylesheet_directory() . "/sections/testimonials.php";
 	endif;
 
 
@@ -384,7 +384,7 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 					
 					<?php
 					
-						$zerif_contactus_title = get_theme_mod('zerif_contactus_title','Get in touch');
+						$zerif_contactus_title = get_theme_mod('zerif_contactus_title','Contact Us');
 						if ( !empty($zerif_contactus_title) ):
 							echo '<h2 class="white-text">'.$zerif_contactus_title.'</h2>';
 						endif;

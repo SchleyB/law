@@ -49,7 +49,7 @@
 
 		<div class="row">
                     <div class="col-md-6" id="about-first">
-						<h3 class="pgraph-header">Chris Dorbandt & Associates, PLLC</h3>
+						<h3 class="pgraph-header">About Us</h3>
                         <img id="chris_pic" src="/wp-content/uploads/2015/05/chris2.png" width="400px">
                         <p class="pgraph">
                             If you or someone you know has been accused of a criminal
@@ -89,7 +89,7 @@
                     <iframe width="85%" height="315" src="https://www.youtube.com/embed/zyKTz7H0g6s" frameborder="0" allowfullscreen></iframe>
                     <div id="about-box">
                         <h4>If you have been charged with a crime in Texas, we can help you!</h4>
-                        <p>Call us today at (512) 407-9700.</p>
+                        <p><a href="tel:512-407-9700">Call us today at (512) 407-9700.</a></p>
                     </div>
                 </div>
 
