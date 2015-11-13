@@ -10,4 +10,4 @@ RewriteRule . /index.php [L]
 
 # END WordPress
 
-php_value max_input_vars 5000
+php_value max_input_vars 8000
