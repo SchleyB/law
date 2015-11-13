@@ -87,3 +87,6 @@ define('DB_NAME', 'wordpress');
 define('DB_USER', 'wordpress');
 define('DB_PASSWORD', 'i2svRP2Fps');
 require_once(ABSPATH . 'wp-settings.php');
+
+//Git branch test!
+
